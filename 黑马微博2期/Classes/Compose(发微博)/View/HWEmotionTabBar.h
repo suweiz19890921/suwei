@@ -21,6 +21,7 @@ typedef enum {
 
 @optional
 - (void)emotionTabBar:(HWEmotionTabBar *)tabBar didSelectButton:(HWEmotionTabBarButtonType)buttonType;
+
 @end
 
 @interface HWEmotionTabBar : UIView
