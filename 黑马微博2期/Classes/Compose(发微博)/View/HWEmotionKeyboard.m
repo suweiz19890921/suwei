@@ -61,6 +61,7 @@
         self.lxhListView = [[HWEmotionListView alloc] init];
         NSString *path = [[NSBundle mainBundle] pathForResource:@"EmotionIcons/lxh/info.plist" ofType:nil];
         self.lxhListView.emotions = [HWEmotion objectArrayWithKeyValuesArray:[NSArray arrayWithContentsOfFile:path]];
+       
     }
     return _lxhListView;
 }
